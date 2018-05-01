@@ -66,7 +66,7 @@ endif
 
 if !empty(s:errors)
   for error in s:errors
-    "echoerr error
+    echoerr error
   endfor
   call s:restore_cpoptions()
   finish
